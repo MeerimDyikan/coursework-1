@@ -216,8 +216,10 @@ section {
 .menu {
 	width: 494.31px;
 	height: 42px;
+	text-decoration: underline;
 
 }
+
 
 .btnn {
 	width: 106px;
@@ -377,10 +379,20 @@ section {
 	font-family: Roboto;
 	font-size: 20px;
 	font-weight: 400;
-	line-height: 32px;
+	line-height: 67px;
 	letter-spacing: 0.9;
 	text-align: left;
-
+	position: relative;
+}
+.input::before{
+	content: '';
+	position: absolute;
+	right: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 17px;
+	height: 17px;
+	background: url(../img/icons/input_arrow.svg) center no-repeat;
 }
 
 .pric {

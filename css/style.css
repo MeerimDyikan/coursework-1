@@ -462,14 +462,7 @@ footer {
 	padding: 30px 30px;
 }
 
-.arrow {
-	background: rgba(21, 60, 60, 1);
-	width: 16.67px;
-	height: 16.67px;
-	top: 11.67px;
-	left: 11.67px;
 
-}
 
 .footer_info {
 	width: 380px;
@@ -483,7 +476,7 @@ footer {
 
 .footer_tit {
 	font-family: Roboto;
-	font-size: 34px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 48px;
 	letter-spacing: 1.600000023841858px;
@@ -516,6 +509,8 @@ footer {
 	height: 32px;
 	top: 43.8px;
 	left: -0.17px;
+	color: rgba(108, 137, 137, 1);
+
 }
 
 .footer_d {

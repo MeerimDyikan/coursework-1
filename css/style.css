@@ -446,6 +446,7 @@ section {
 	letter-spacing: 0.28px;
 	text-align: left;
 	color: rgba(221, 228, 228, 1);
+	
 }
 
 .footer_in {
@@ -528,6 +529,7 @@ footer {
 	width: 72px;
 	height: 23px;
 	top: -0.33px;
+	color: rgba(173, 201, 166, 1);
 
 }
 
@@ -537,4 +539,8 @@ footer {
 	top: 3.67px;
 	left: 82px;
 
+}
+.color{
+	color:  rgba(173, 201, 166, 1);
+	;
 }

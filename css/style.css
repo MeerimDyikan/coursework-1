@@ -76,7 +76,7 @@ body {
 	line-height: 19px;
 	color: #242424;
 	width: 100%;
-	font-family: 'Manrope', arial, sans-serif;
+	font-family: 'Roboto', arial, sans-serif;
 }
 
 .container {
@@ -156,12 +156,13 @@ section {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
+header{
+	background: rgba(132, 161, 125, 1);
+}
 .star {
 
 	height: 40px;
 	color: rgba(21, 60, 60, 1);
-	background: rgba(132, 161, 125, 1);
 	justify-content: center;
 	align-items: center;
 
@@ -193,12 +194,8 @@ section {
 }
 
 .head_in {
-	width: 1280px;
-	height: 42px;
-	top: 28.5px;
 	left: 80px;
 	color: #fff;
-	width: 1440px;
 	height: 100px;
 	top: 40px;
 
@@ -210,7 +207,6 @@ section {
 	height: 32px;
 	top: 5.5px;
 	background: rgba(21, 60, 60, 1);
-	margin-left: 60px;
 }
 
 .menu {
@@ -242,24 +238,43 @@ section {
 }
 
 .sec_tite {
-	font-family: Roboto;
 	font-size: 18px;
-	font-weight: 400;
 	line-height: 32px;
-	letter-spacing: 0em;
 	text-align: center;
-	background: grey;
 	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+.sec_tite span{
+	display: block;
+	padding: 8px;
+	background: rgba(243, 247, 242, 1);
+	border-radius: 8px;
 }
 
 .sec_tit {
-	font-family: Roboto;
 	font-size: 62px;
 	font-weight: 400;
 	line-height: 80px;
 	letter-spacing: 2.8;
 	text-align: center;
 	margin-bottom: 60px;
+}
+.teams .sec_tit{
+	max-width: 528px;
+	margin: 0 auto 60px;
+	position: relative;
+}
+.teams .sec_tit::before{
+	content: '';
+	position: absolute;
+	background: url(../img/icons/tit_bot.png) center no-repeat;
+	width: 241px;
+	height: 80px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
 }
 
 .icon {

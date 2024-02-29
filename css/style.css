@@ -156,9 +156,11 @@ section {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-header{
+
+header {
 	background: rgba(132, 161, 125, 1);
 }
+
 .star {
 
 	height: 40px;
@@ -225,9 +227,11 @@ header{
 	transition: 1s;
 
 }
+
 .btnn:hover {
 	box-shadow: 0px 6px 5px 2px #fff;
 }
+
 .team {
 	width: 1280px;
 	height: 970px;
@@ -244,7 +248,8 @@ header{
 	display: flex;
 	justify-content: center;
 }
-.sec_tite span{
+
+.sec_tite span {
 	display: block;
 	padding: 8px;
 	background: rgba(243, 247, 242, 1);
@@ -259,12 +264,14 @@ header{
 	text-align: center;
 	margin-bottom: 60px;
 }
-.teams .sec_tit{
+
+.teams .sec_tit {
 	max-width: 528px;
 	margin: 0 auto 60px;
 	position: relative;
 }
-.teams .sec_tit::before{
+
+.teams .sec_tit::before {
 	content: '';
 	position: absolute;
 	background: url(../img/icons/tit_bot.png) center no-repeat;
@@ -348,7 +355,7 @@ header{
 	width: 1060px;
 	height: 612.58px;
 	top: 224px;
-left: 190px;
+	left: 190px;
 
 }
 
@@ -391,7 +398,8 @@ left: 190px;
 	text-align: left;
 	position: relative;
 }
-.input::before{
+
+.input::before {
 	content: '';
 	position: absolute;
 	right: 40px;
@@ -475,6 +483,20 @@ footer {
 	position: relative;
 }
 
+.align1 {
+	position: relative;
+}
+
+.footer_tit::before {
+	position: absolute;
+	background: url(../img/Vector\ \(3\).png) center no-repeat;
+	content: '';
+	width: 88px;
+	height: 12px;
+	bottom: 76%;
+	right: 27%;
+}
+
 .footer_menu {
 	width: 170.91px;
 	left: 678.17px;
@@ -488,22 +510,23 @@ footer {
 	letter-spacing: 1.6;
 	text-align: left;
 	margin-bottom: 20px;
-	
+
 
 }
-.footer_title{
+
+.footer_title {
 	font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: rgba(244, 245, 246, 1);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(244, 245, 246, 1);
 }
 
 
 .logof {
-	font-family: Roboto;
+
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 48px;
@@ -557,7 +580,8 @@ color: rgba(244, 245, 246, 1);
 	left: 82px;
 
 }
-.color{
-	color:  rgba(173, 201, 166, 1);
-	
+
+.color {
+	color: rgba(173, 201, 166, 1);
+
 }

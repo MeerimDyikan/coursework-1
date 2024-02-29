@@ -167,15 +167,17 @@ header {
 	color: rgba(21, 60, 60, 1);
 	justify-content: center;
 	align-items: center;
-
+	
+	
 }
+
 
 .ic {
 	width: 14.27px;
 	height: 13.57px;
 	top: 4.88px;
 	left: 4.87px;
-	margin-left: 543px;
+	margin-left: 343px;
 	margin-right: 30px;
 
 }
